@@ -1,6 +1,89 @@
-body {
-	font-size: 16px;
-	color: #fff;
-	background-color: #61122f;
-	font-family: 'Oxygen', sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Boogaloo', cursive;
+}
+/** HEADER **/
+#header-nav {
+	background-color: #999999;
+	border-radius: 0;
+	border: 2px solid #000;
+	color: #000;
+}
+.navbar-brand {
+	padding: 15px 0;
+	margin: 0 15px;
+}
+.navbar-brand h1 {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	color: #000;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle {
+	border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle {
+	padding: 5px 3px;
+	margin: 8px 15px;
+}
+.navbar-header .icon-bar {
+	width: 27px;
+	height: 4px;
+	background-color: #000;
+	border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+	background-color: #999999;
+	border: 2px solid #dcdcdc;
+}
+.navbar-header button.navbar-toggle:hover .icon-bar, .navbar-header button.navbar-toggle:focus .icon-bar {
+	background-color: #dcdcdc;
+	border: 1px solid #dcdcdc;
+}
+#nav-list {
+	background-color: #fff;
+	margin: 0 -15px;
+}
+#nav-list a {
+	color: #000;
+	font-size: 1.25em;
+	border-bottom: 2px solid #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#nav-list li:last-child a {
+	border-bottom: 0;
+}
+/* End HEADER */
+
+/* Main Content */
+#main-content h2 {
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+#main-content .row {
+	margin: 0 auto;
+}
+#main-content .row > div {
+	background-color: #999999;
+	margin-bottom: 15px;
+}
+
+@media (min-width: 1200px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+	#collapsable-nav {
+		border-top: 2px solid #000;
 }
